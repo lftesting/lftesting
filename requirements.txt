@@ -1,0 +1,4 @@
+# pip - installable libraries used in the project
+requests
+pytest
+json
