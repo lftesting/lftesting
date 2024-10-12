@@ -1,0 +1,3 @@
+# pip installed libraries
+pytest
+nba_api
