@@ -9,7 +9,7 @@ def main():
     # get team id to proceed with franchise leaders or remprompt user for another team if not found
     id_team = check_team(team)
     player = get_leading_scorer(id_team)
-    print(player)
+    print(f"{player[0]} is the leading scorer for the {team} with {player[1]} points.")
 
 # check input against nba teams list
 def check_team(team_name):
