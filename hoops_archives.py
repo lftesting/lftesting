@@ -6,7 +6,7 @@ from nba_api.stats.static import teams
 def main():
     # collect input from user (nba team that they choose)
     team = input("Which is your favourite NBA team? ")
-    # get team id to proceed with franchise leaders or remprompt user for another team if not found
+    # get team id to proceed with franchise leaders 
     id_team = check_team(team)
     player = get_leading_scorer(id_team)
     print(f"{player[0]} is the leading scorer for the {team} with {player[1]} points.")
